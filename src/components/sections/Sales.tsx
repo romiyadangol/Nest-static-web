@@ -29,7 +29,7 @@ export default function Sales() {
 
               <div className="w-full h-px sm:h-full sm:w-px bg-gray-900 opacity-40" />
 
-              <p className="text-sm sm:text-base font-medium">
+              <p className="text-sm sm:text-base font-medium text-gray-900">
                 Call: +977 9864333307
               </p>
             </div>

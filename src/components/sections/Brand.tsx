@@ -6,7 +6,6 @@ export default function Brand() {
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 xl:gap-20 items-center">
 
-          {/* Left: Image – centered on mobile, left-aligned on desktop */}
           <div className="relative flex items-center justify-center lg:justify-start h-72 sm:h-80 md:h-96 lg:h-auto">
             <Image
               src="/product.png"
@@ -18,9 +17,7 @@ export default function Brand() {
             />
           </div>
 
-          {/* Right: Text content */}
           <div className="space-y-8 md:space-y-9 lg:space-y-10 text-center lg:text-left">
-            {/* Main heading + description with one shared bar */}
             <div className="relative pl-5 sm:pl-6 md:pl-7">
               <div className="absolute left-0 top-2 bottom-2 w-1.5 md:w-2 bg-gray-300/85 rounded-full" />
               
@@ -36,14 +33,11 @@ export default function Brand() {
               </p>
             </div>
 
-            {/* Feature list */}
             <div className="space-y-6 sm:space-y-7 pt-2 md:pt-4">
               <div className="relative pl-5 sm:pl-6 md:pl-7 flex items-start">
                 <div className="absolute left-0 top-1.5 h-6 w-1.5 bg-gray-300/70 rounded-full" />
                 <div>
                   <h3 className="font-semibold text-lg sm:text-xl text-gray-900">Annotate PDFs</h3>
-                  {/* optional description */}
-                  {/* <p className="mt-1 text-sm text-gray-600">Add highlights, comments and drawings directly.</p> */}
                 </div>
               </div>
 

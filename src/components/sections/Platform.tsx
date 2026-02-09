@@ -55,7 +55,6 @@ export default function Platform() {
 
       </div>
 
-      {/* CTA */}
       <ContactButton
         variant="default"
         size="pill"
@@ -87,7 +86,6 @@ export default function Platform() {
         "
       />
 
-      {/* Includes */}
       <p className="mt-12 sm:mt-16 text-base sm:text-lg md:text-xl font-bold text-gray-900 max-w-3xl mx-auto font-helvetica-display">
         Google Workspace includes:
       </p>

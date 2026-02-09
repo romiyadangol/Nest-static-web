@@ -7,7 +7,6 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full bg-white">
       <div className="w-full px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-24">
 
-        {/* Top Row */}
         <div className="flex items-center justify-between h-20 sm:h-24 md:h-32">
           {/* Logo */}
           <div className="flex-shrink-0">
